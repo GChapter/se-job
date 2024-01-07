@@ -27,7 +27,7 @@ function QuickSearch() {
   );
 }
 
-export default function userList() {
+export default function UserList() {
   const [tdata, setData] = useState<userinfo[]>([]);
   const fetchdata = async () => {
     setData(await getListUser());
