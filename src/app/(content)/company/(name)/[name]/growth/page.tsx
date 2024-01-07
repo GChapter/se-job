@@ -5,7 +5,7 @@ import Appbar from "@/components/appbar";
 import { fetchChart } from "@/components/controller";
 import React, { useState, useEffect } from "react";
 
-export default function chartGrowth() {
+export default function ChartGrowth() {
   const [chartData, setChartData] = useState<chartinfo[]>([]);
   const fetchData = async () => {
     const data = await fetchChart();
