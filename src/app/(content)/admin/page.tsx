@@ -20,7 +20,7 @@ interface Job {
 
 
 
-const page = () => {
+const Page = () => {
   const [data, setDataJob] = useState<jobInfo[]>([]);
   const [tdata, setData] = useState<userinfo[]>([]);
   const fetchdata = async () => {
